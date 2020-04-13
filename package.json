@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "backend": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -34,5 +35,8 @@
     "mongoose": "^5.4.20",
     "saslprep": "^1.0.3",
     "supports-color": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
